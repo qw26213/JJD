@@ -1,0 +1,244 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/home/select",
+			"style": {
+				"navigationBarTitleText": "选择门店"
+			}
+		},
+		{
+			"path": "pages/shop/actDetail",
+			"style": {
+				"navigationBarTitleText": "竞果活动"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/shop/store",
+			"style": {
+				"navigationBarTitleText": "商家"
+			}
+		},
+		{
+			"path": "pages/shop/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shopset/index",
+			"style": {
+				"navigationBarTitleText": "订机位"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商品"
+			}
+		},
+		{
+			"path": "pages/shop/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/shop/search",
+			"style": {
+				"navigationBarTitleText": "商品搜索"
+			}
+		},
+		{
+			"path": "pages/shop/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {
+				"navigationBarTitleText": "活 动"
+			}
+		},
+		{
+			"path": "pages/activity/detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/activity/content",
+			"style": {
+				"navigationBarTitleText": "消费榜单"
+			}
+		},
+		{
+			"path": "pages/mine/certify",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/mine/mycenter",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+			"path": "pages/mine/zan",
+			"style": {
+				"navigationBarTitleText": "我的点赞"
+			}
+		},
+		{
+			"path": "pages/mine/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登 录"
+			}
+		},
+		{
+			"path": "pages/mine/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/mine/orders",
+			"style": {
+				"navigationBarTitleText": "订 单"
+			}
+		},
+		{
+			"path": "pages/mine/orderconfirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/mine/cartconfirm1", // 门店购物车进入
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/mine/cartconfirm2", // 竞果购物车进入
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/mine/pointrecord", // 积分明细
+			"style": {
+				"navigationBarTitleText": "积分明细"
+			}
+		},
+		{
+			"path": "pages/mine/points",
+			"style": {
+				"navigationBarTitleText": "积分"
+			}
+		},
+		{
+			"path": "pages/mine/orderdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#0469F7",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/assets/home.png",
+				"selectedIconPath": "static/assets/home_on.png"
+			},
+			{
+				"pagePath": "pages/shopset/index",
+				"text": "订机位",
+				"iconPath": "static/assets/shopset.png",
+				"selectedIconPath": "static/assets/shopset_on.png"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"text": "商品",
+				"iconPath": "static/assets/shop.png",
+				"selectedIconPath": "static/assets/shop_on.png"
+			},
+			{
+				"pagePath": "pages/activity/index",
+				"text": "活动",
+				"iconPath": "static/assets/act.png",
+				"selectedIconPath": "static/assets/act_on.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/assets/mine.png",
+				"selectedIconPath": "static/assets/mine_on.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f7f7f7",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"condition": {
+		"current": 1,
+		"list": [
+			{
+				"name": "积分",
+				"path": "pages/mine/points",
+				"query": ""
+			},
+			{
+				"name": "订机位",
+				"path": "pages/shopset/index",
+				"query": ""
+			},
+			{
+				"name": "商城",
+				"path": "pages/shop/index",
+				"query": ""
+			},
+			{
+				"name": "我的",
+				"path": "pages/mine/index",
+				"query": ""
+			},
+			{
+				"name": "购物车",
+				"path": "pages/mine/cart",
+				"query": ""
+			}
+		]
+	}
+}
